@@ -13,11 +13,13 @@ from moviepy import (
     AudioFileClip,
     ColorClip,
     CompositeVideoClip,
+    CompositeAudioClip,
     TextClip,
     VideoFileClip,
     concatenate_audioclips,
     concatenate_videoclips,
 )
+from moviepy.audio.fx import MultiplyVolume, AudioLoop
 
 import config
 
@@ -145,11 +147,11 @@ def _build_scene_clip(
             color=(15, 15, 25),
         ).with_duration(scene_duration)
 
-    # ── Semi-transparent overlay for readability ────────────
+    # ── Cinematic Tint (Color Grading) ────────────
     overlay = ColorClip(
         size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
-        color=(0, 0, 0),
-    ).with_duration(scene_duration).with_opacity(0.60)
+        color=config.TINT_COLOR,
+    ).with_duration(scene_duration).with_opacity(config.TINT_OPACITY)
 
     # ── Text overlay ────────────────────────────────────────
     text = scene["text"]
@@ -174,11 +176,28 @@ def _build_scene_clip(
         text_align="center",
         interline=15,
         margin=(20, 20),
-    ).with_duration(scene_duration).with_position(("center", y_pos))
+    )
+    
+    # Calculate exact positions for drop shadow offset
+    w, h = txt_clip.size
+    x_center = (config.VIDEO_WIDTH - w) / 2
+    y_center = (config.VIDEO_HEIGHT - h) / 2 if y_pos == "center" else y_pos
+    
+    txt_clip = txt_clip.with_duration(scene_duration).with_position((x_center, y_center))
+    
+    shadow_clip = TextClip(
+        text=wrapped_text,
+        font=font,
+        font_size=font_size,
+        color=config.DROP_SHADOW_COLOR,
+        text_align="center",
+        interline=15,
+        margin=(20, 20),
+    ).with_duration(scene_duration).with_position((x_center + config.DROP_SHADOW_OFFSET[0], y_center + config.DROP_SHADOW_OFFSET[1]))
 
     # ── Compose ─────────────────────────────────────────────
     composite = CompositeVideoClip(
-        [bg, overlay, txt_clip],
+        [bg, overlay, shadow_clip, txt_clip],
         size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
     ).with_duration(scene_duration)
 
@@ -222,6 +241,25 @@ def compose_video(scenes: list[dict], output_path: Path) -> Path:
 
     # Concatenate all scenes
     final = concatenate_videoclips(clips, method="compose")
+
+    # ── Add Background Ambient Audio ────────────────────────────
+    # Look for any audio file in assets/audio
+    bgm_files = list(config.ASSETS_DIR.glob("audio/*.*"))
+    if bgm_files and final.audio is not None:
+        bgm_path = bgm_files[0]
+        try:
+            logger.info("Adding BGM: %s", bgm_path.name)
+            bgm_clip = AudioFileClip(str(bgm_path))
+            # Loop background audio to match video length
+            bgm_clip = bgm_clip.with_effects([
+                AudioLoop(duration=final.duration),
+                MultiplyVolume(config.BGM_VOLUME)
+            ])
+            # Mix TTS audio with BGM
+            mixed_audio = CompositeAudioClip([final.audio, bgm_clip])
+            final = final.with_audio(mixed_audio)
+        except Exception as e:
+            logger.warning("Failed to apply BGM: %s", e)
 
     # Write output
     logger.info("Encoding final video (%.1fs) …", final.duration)

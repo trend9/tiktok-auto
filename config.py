@@ -56,12 +56,19 @@ AVAILABLE_VOICES: list[str] = [
     "en-US-DavisNeural",
 ]
 
-# ── Text/Telop Settings ───────────────────────────────────────
-FONT_SIZE: int = 70
-FONT_COLOR: str = "white"
+# ── Text/Telop Settings (Comic-book Style) ──────────────────────
+FONT_SIZE: int = 85
+FONT_COLOR: str = "#FFE81F"  # Bright comic yellow
 STROKE_COLOR: str = "black"
-STROKE_WIDTH: int = 3
-AUTHOR_FONT_SIZE: int = 40
+STROKE_WIDTH: int = 5
+AUTHOR_FONT_SIZE: int = 55
+DROP_SHADOW_OFFSET: tuple[int, int] = (6, 6)
+DROP_SHADOW_COLOR: str = "black"
+
+# ── Cinematic Grading & Audio Settings ───────────────────────────
+TINT_COLOR: tuple[int, int, int] = (10, 25, 47)  # Dark Teal
+TINT_OPACITY: float = 0.4
+BGM_VOLUME: float = 0.15
 
 # ── History ────────────────────────────────────────────────────
 HISTORY_FILE = HISTORY_DIR / "generated_history.json"
