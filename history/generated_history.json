@@ -31,6 +31,14 @@
       "quote": "The journey of a thousand miles begins with a single step.",
       "author": "Lao Tzu",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260626_005",
+      "date": "2026-06-26",
+      "theme": "The Strength in Vulnerability",
+      "quote": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
+      "author": "Brené Brown",
+      "status": "error"
     }
   ]
 }
