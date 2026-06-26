@@ -27,9 +27,11 @@ HISTORY_DIR.mkdir(exist_ok=True)
 ASSETS_DIR.mkdir(exist_ok=True)
 FONTS_DIR.mkdir(exist_ok=True)
 
-# ── API Keys ───────────────────────────────────────────────────
+# ── API Keys & Integrations ────────────────────────────────────
 GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
 PEXELS_API_KEY: str = os.getenv("PEXELS_API_KEY", "")
+MAKE_WEBHOOK_URL: str = os.getenv("MAKE_WEBHOOK_URL", "https://hook.eu1.make.com/e2unkf0qe26uikpkqwabjtr6vil98731")
+GITHUB_REPOSITORY: str = os.getenv("GITHUB_REPOSITORY", "trend9/tiktok-auto")  # Used for RAW URL construction
 
 # ── Video Settings ─────────────────────────────────────────────
 VIDEO_WIDTH: int = 1080

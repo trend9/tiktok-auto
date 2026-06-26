@@ -65,3 +65,9 @@ jobs:
           git add -f output/*.mp4
           git diff --staged --quiet || git commit -m "chore: update generation history and save videos [skip ci]"
           git push
+
+      - name: Trigger Webhook (Make.com)
+        if: always()
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+        run: python scripts/trigger_webhook.py
