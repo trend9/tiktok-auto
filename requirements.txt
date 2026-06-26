@@ -1,0 +1,7 @@
+moviepy>=2.0
+edge-tts
+requests
+google-genai
+Pillow
+python-dotenv
+mutagen

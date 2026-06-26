@@ -1,0 +1,65 @@
+name: Generate TikTok Videos
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC (15:00 JST) — generates 2 videos per run
+    # For 60 videos/month: daily runs = ~60 videos
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Number of videos to generate'
+        required: false
+        default: '2'
+
+permissions:
+  contents: write  # needed to push history updates
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: release
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate videos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          TTS_VOICE: en-US-GuyNeural
+        run: python main.py --count ${{ github.event.inputs.count || '2' }}
+
+      - name: Upload generated videos as artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-videos-${{ github.run_number }}
+          path: output/*.mp4
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Commit updated history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history/generated_history.json
+          git diff --staged --quiet || git commit -m "chore: update generation history [skip ci]"
+          git push
