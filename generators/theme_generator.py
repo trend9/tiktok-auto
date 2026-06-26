@@ -87,10 +87,25 @@ Respond in **valid JSON only** (no markdown fences, no extra text):
 """
 
     logger.info("Requesting theme from Gemini API …")
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
-        contents=prompt,
-    )
+    models_to_try = ["gemini-2.5-flash-lite", "gemini-1.5-flash-8b", "gemini-1.5-pro", "gemini-2.0-flash-lite-preview-02-05"]
+    last_error = None
+    response = None
+    
+    for model_name in models_to_try:
+        try:
+            logger.info(f"Trying model: {model_name}")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+            )
+            break
+        except Exception as e:
+            logger.warning(f"Model {model_name} failed: {e}")
+            last_error = e
+            
+    if response is None:
+        raise RuntimeError(f"All Gemini models failed. Last error: {last_error}")
+
     raw = response.text.strip()
 
     # Strip markdown code fences if present
