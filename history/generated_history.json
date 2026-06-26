@@ -63,6 +63,14 @@
       "quote": "Have no fear of perfection - you'll never reach it.",
       "author": "Salvador Dalí",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260626_009",
+      "date": "2026-06-26",
+      "theme": "The Alchemy of Action",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "status": "error"
     }
   ]
 }
