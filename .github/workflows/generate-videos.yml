@@ -10,7 +10,7 @@ on:
       count:
         description: 'Number of videos to generate'
         required: false
-        default: '2'
+        default: '1'
 
 permissions:
   contents: write  # needed to push history updates
