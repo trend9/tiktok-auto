@@ -186,6 +186,11 @@ def main() -> None:
             successes += 1
         else:
             failures += 1
+            
+        if i < args.count - 1:
+            logger.info("Waiting 15 seconds before next video to avoid rate limits...")
+            import time
+            time.sleep(15)
 
     logger.info("━" * 60)
     logger.info("Batch complete: %d succeeded, %d failed", successes, failures)
