@@ -6,6 +6,7 @@ into a final 9:16 TikTok-ready MP4 using MoviePy 2.x.
 import logging
 import platform
 import subprocess
+import textwrap
 from pathlib import Path
 
 from moviepy import (
@@ -148,10 +149,12 @@ def _build_scene_clip(
     overlay = ColorClip(
         size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
         color=(0, 0, 0),
-    ).with_duration(scene_duration).with_opacity(0.35)
+    ).with_duration(scene_duration).with_opacity(0.60)
 
     # ── Text overlay ────────────────────────────────────────
     text = scene["text"]
+    wrapped_text = "\n".join(textwrap.wrap(text, width=22))
+    
     is_author_scene = idx == total_scenes - 1  # Last scene = author
 
     if is_author_scene:
@@ -162,14 +165,12 @@ def _build_scene_clip(
         y_pos = "center"
 
     txt_clip = TextClip(
-        text=text,
+        text=wrapped_text,
         font=font,
         font_size=font_size,
         color=config.FONT_COLOR,
         stroke_color=config.STROKE_COLOR,
         stroke_width=config.STROKE_WIDTH,
-        size=(config.VIDEO_WIDTH - 120, None),  # margin on each side
-        method="caption",
         text_align="center",
     ).with_duration(scene_duration).with_position(("center", y_pos))
 

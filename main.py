@@ -113,7 +113,12 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
 
         # ── Step 7: Compose video ──────────────────────────
         logger.info("STEP 7 — Composing video …")
-        output_path = config.OUTPUT_DIR / f"{video_id}.mp4"
+        import re
+        safe_title = re.sub(r'[^a-zA-Z0-9_\- ]', '', scenario.get("title", "video")).strip()
+        safe_title = safe_title.replace(' ', '_')
+        if not safe_title:
+            safe_title = "video"
+        output_path = config.OUTPUT_DIR / f"{safe_title}_{video_id}.mp4"
         compose_video(scenes, output_path)
 
         # ── Step 8: Final validation ───────────────────────

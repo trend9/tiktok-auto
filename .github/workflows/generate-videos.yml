@@ -56,11 +56,11 @@ jobs:
           retention-days: 30
           if-no-files-found: warn
 
-      - name: Commit updated history
+      - name: Commit updated history and videos
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history/generated_history.json
-          git diff --staged --quiet || git commit -m "chore: update generation history [skip ci]"
+          git add history/generated_history.json output/*.mp4
+          git diff --staged --quiet || git commit -m "chore: update generation history and save videos [skip ci]"
           git push
