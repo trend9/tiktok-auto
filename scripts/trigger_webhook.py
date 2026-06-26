@@ -38,8 +38,14 @@ def main():
                 continue
 
             # Construct the raw GitHub URL
-            # Format: https://raw.githubusercontent.com/<owner>/<repo>/main/output/<filename>
-            raw_url = f"https://raw.githubusercontent.com/{repo}/main/output/{filename}"
+            # Use the commit SHA instead of 'main' to bypass GitHub's aggressive caching
+            import subprocess
+            try:
+                commit_sha = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()
+            except:
+                commit_sha = 'main'
+                
+            raw_url = f"https://raw.githubusercontent.com/{repo}/{commit_sha}/output/{filename}"
             
             payload = {
                 "video_url": raw_url,
