@@ -83,7 +83,7 @@ Respond in **valid JSON only** (no markdown fences):
 
     logger.info("Requesting scenario from Gemini API …")
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-1.5-flash",
         contents=prompt,
     )
     raw = response.text.strip()
