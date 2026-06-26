@@ -82,7 +82,12 @@ Respond in **valid JSON only** (no markdown fences):
 """
 
     logger.info("Requesting scenario from Gemini API …")
-    models_to_try = ["gemini-2.5-flash-lite", "gemini-1.5-flash-8b", "gemini-1.5-pro", "gemini-2.0-flash-lite-preview-02-05"]
+    models_to_try = [
+        "gemini-2.5-flash-lite",
+        "gemini-2.0-flash-lite",
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest"
+    ]
     last_error = None
     response = None
     
