@@ -1,3 +1,20 @@
 {
-  "generated": []
+  "generated": [
+    {
+      "id": "vid_20260626_001",
+      "date": "2026-06-26",
+      "theme": "The Power of Presence",
+      "quote": "Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.",
+      "author": "Mother Teresa",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260626_002",
+      "date": "2026-06-26",
+      "theme": "The Art of Letting Go",
+      "quote": "Some of us think holding on makes us strong, but sometimes it is letting go.",
+      "author": "Hermann Hesse",
+      "status": "completed"
+    }
+  ]
 }
