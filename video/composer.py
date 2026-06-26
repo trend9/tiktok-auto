@@ -172,6 +172,8 @@ def _build_scene_clip(
         stroke_color=config.STROKE_COLOR,
         stroke_width=config.STROKE_WIDTH,
         text_align="center",
+        interline=15,
+        margin=(20, 20),
     ).with_duration(scene_duration).with_position(("center", y_pos))
 
     # ── Compose ─────────────────────────────────────────────
