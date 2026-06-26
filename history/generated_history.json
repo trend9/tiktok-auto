@@ -15,6 +15,38 @@
       "quote": "Some of us think holding on makes us strong, but sometimes it is letting go.",
       "author": "Hermann Hesse",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260626_003",
+      "date": "2026-06-26",
+      "theme": "The Courage to Begin",
+      "quote": "Start where you are. Use what you have. Do what you can.",
+      "author": "Arthur Ashe",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260626_004",
+      "date": "2026-06-26",
+      "theme": "The Power of Small Steps",
+      "quote": "The journey of a thousand miles begins with a single step.",
+      "author": "Lao Tzu",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260626_005",
+      "date": "2026-06-26",
+      "theme": "The Strength in Vulnerability",
+      "quote": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
+      "author": "Brené Brown",
+      "status": "error"
+    },
+    {
+      "id": "vid_20260626_006",
+      "date": "2026-06-26",
+      "theme": "The Power of Perspective",
+      "quote": "It is not what happens to you, but how you react to it that matters.",
+      "author": "Epictetus",
+      "status": "completed"
     }
   ]
 }
