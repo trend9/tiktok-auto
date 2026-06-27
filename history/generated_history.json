@@ -175,6 +175,14 @@
       "quote": "The path to your purpose isn't found, it's forged. Each choice, a spark; each effort, a step on the road you build for yourself.",
       "author": "Unknown",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260627_003",
+      "date": "2026-06-27",
+      "theme": "The Resilience of the Unseen",
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "status": "failed_scenario"
     }
   ]
 }
