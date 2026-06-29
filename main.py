@@ -146,8 +146,8 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
         safe_title = re.sub(r'[^a-zA-Z0-9_\- ]', '', scenario.get("title", "video")).strip()
         safe_title = safe_title.replace(' ', '_')
         if not safe_title:
-            safe_title = "video"
-        output_path = config.OUTPUT_DIR / f"{safe_title}_{video_id}.mp4"
+            safe_title = f"video_{video_id}"
+        output_path = config.OUTPUT_DIR / f"{safe_title}.mp4"
         compose_video(scenes, output_path)
 
         # ── Step 8: Final validation ───────────────────────
@@ -158,18 +158,13 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
             _update_history_status(video_id, "failed_output")
             return None
 
-        # ── Step 8.5: Write metadata for Webhook ────────────
-        logger.info("STEP 8.5 — Writing metadata …")
-        metadata = {
-            "id": video_id,
-            "title": scenario.get("title", "Motivational Video"),
-            "description": f"{scenario.get('title', '')}\n\n\"{theme_entry.get('quote', '')}\"\n\n#motivation #success #mindset #shorts",
-            "tags": "motivation,success,mindset,shorts",
-            "filename": output_path.name
-        }
-        meta_path = config.OUTPUT_DIR / f"{output_path.stem}.json"
+        # ── Step 8.5: Write description text for manual posting ────────────
+        logger.info("STEP 8.5 — Writing description text …")
+        description_text = f"{scenario.get('title', '')}\n\n\"{theme_entry.get('quote', '')}\"\n\n#motivation #success #mindset #shorts"
+        
+        meta_path = config.OUTPUT_DIR / f"{output_path.stem}.txt"
         with open(meta_path, "w", encoding="utf-8") as f:
-            json.dump(metadata, f, ensure_ascii=False, indent=2)
+            f.write(description_text)
 
         # ── Step 9: Mark as completed ──────────────────────
         _update_history_status(video_id, "completed")
