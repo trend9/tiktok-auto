@@ -97,7 +97,27 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
         work_dir = config.TEMP_DIR / video_id
         work_dir.mkdir(parents=True, exist_ok=True)
 
-        scenes = asyncio.run(synthesize_scenes(scenes, work_dir, voice=voice))
+        import random
+        # Randomize voice if not explicitly provided
+        actual_voice = voice
+        if not actual_voice:
+            actual_voice = random.choice(config.AVAILABLE_VOICES)
+        
+        # Randomize speed (+/- 15%) and pitch (+/- 10Hz) to sound less AI-like
+        rate_val = random.randint(-15, 15)
+        pitch_val = random.randint(-10, 10)
+        rate_str = f"{rate_val:+d}%"
+        pitch_str = f"{pitch_val:+d}Hz"
+        
+        logger.info("  Using TTS Voice: %s, Rate: %s, Pitch: %s", actual_voice, rate_str, pitch_str)
+
+        scenes = asyncio.run(synthesize_scenes(
+            scenes, 
+            work_dir, 
+            voice=actual_voice, 
+            rate=rate_str, 
+            pitch=pitch_str
+        ))
 
         # ── Step 5: Background videos ──────────────────────
         logger.info("STEP 5 — Downloading background videos …")

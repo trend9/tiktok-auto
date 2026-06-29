@@ -82,6 +82,7 @@ def _build_scene_clip(
     font: str,
     idx: int,
     total_scenes: int,
+    palette: dict,
 ) -> CompositeVideoClip:
     """Build a single scene: background + text overlay + audio."""
 
@@ -170,8 +171,8 @@ def _build_scene_clip(
         text=wrapped_text,
         font=font,
         font_size=font_size,
-        color=config.FONT_COLOR,
-        stroke_color=config.STROKE_COLOR,
+        color=palette["font"],
+        stroke_color=palette["stroke"],
         stroke_width=config.STROKE_WIDTH,
         text_align="center",
         interline=15,
@@ -189,7 +190,7 @@ def _build_scene_clip(
         text=wrapped_text,
         font=font,
         font_size=font_size,
-        color=config.DROP_SHADOW_COLOR,
+        color=palette["shadow"],
         text_align="center",
         interline=15,
         margin=(20, 20),
@@ -230,13 +231,17 @@ def compose_video(scenes: list[dict], output_path: Path) -> Path:
 
     font = _find_font()
     total = len(scenes)
+    
+    import random
+    palette = random.choice(config.TELOP_PALETTES)
 
     logger.info("Composing %d scenes → %s", total, output_path)
+    logger.info("Using telop palette: %s", palette)
 
     clips: list[CompositeVideoClip] = []
     for idx, scene in enumerate(scenes):
         logger.info("  Building scene %d/%d: '%s…'", idx + 1, total, scene["text"][:30])
-        clip = _build_scene_clip(scene, font, idx, total)
+        clip = _build_scene_clip(scene, font, idx, total, palette)
         clips.append(clip)
 
     # Concatenate all scenes
@@ -246,9 +251,9 @@ def compose_video(scenes: list[dict], output_path: Path) -> Path:
     # Look for any audio file in assets/audio
     bgm_files = list(config.ASSETS_DIR.glob("audio/*.*"))
     if bgm_files and final.audio is not None:
-        bgm_path = bgm_files[0]
+        bgm_path = random.choice(bgm_files)
         try:
-            logger.info("Adding BGM: %s", bgm_path.name)
+            logger.info("Adding random BGM: %s", bgm_path.name)
             bgm_clip = AudioFileClip(str(bgm_path))
             # Loop background audio to match video length
             bgm_clip = bgm_clip.with_effects([

@@ -60,17 +60,26 @@ AVAILABLE_VOICES: list[str] = [
 
 # ── Text/Telop Settings (Comic-book Style) ──────────────────────
 FONT_SIZE: int = 85
-FONT_COLOR: str = "#FFE81F"  # Bright comic yellow
-STROKE_COLOR: str = "black"
 STROKE_WIDTH: int = 5
 AUTHOR_FONT_SIZE: int = 55
 DROP_SHADOW_OFFSET: tuple[int, int] = (6, 6)
-DROP_SHADOW_COLOR: str = "black"
+
+# Repertoire of telop colors (Font Color, Stroke Color, Shadow Color)
+TELOP_PALETTES: list[dict[str, str]] = [
+    {"font": "#FFE81F", "stroke": "black", "shadow": "black"}, # Bright comic yellow
+    {"font": "#FFFFFF", "stroke": "black", "shadow": "black"}, # White
+    {"font": "#00FF00", "stroke": "black", "shadow": "black"}, # Neon Green
+    {"font": "#FF00FF", "stroke": "black", "shadow": "black"}, # Magenta
+    {"font": "#00FFFF", "stroke": "black", "shadow": "black"}, # Cyan
+    {"font": "#FF5555", "stroke": "black", "shadow": "black"}, # Light Red
+    {"font": "#FFB6C1", "stroke": "black", "shadow": "black"}, # Light Pink
+    {"font": "#FFA500", "stroke": "black", "shadow": "black"}, # Orange
+]
 
 # ── Cinematic Grading & Audio Settings ───────────────────────────
 TINT_COLOR: tuple[int, int, int] = (10, 25, 47)  # Dark Teal
 TINT_OPACITY: float = 0.4
-BGM_VOLUME: float = 0.15
+BGM_VOLUME: float = 0.08  # Lowered volume so it does not overpower TTS
 
 # ── History ────────────────────────────────────────────────────
 HISTORY_FILE = HISTORY_DIR / "generated_history.json"
