@@ -63,18 +63,20 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
     video_id: str | None = None
 
     try:
-        # ── Step 1: Theme ──────────────────────────────────
-        logger.info("=" * 60)
-        logger.info("STEP 1 — Generating theme …")
-        theme_entry = generate_theme()
-        video_id = theme_entry["id"]
-        logger.info("  Theme: %s", theme_entry["theme"])
-        logger.info("  Quote: %s", theme_entry["quote"])
-
-        # ── Step 2: Scenario ───────────────────────────────
-        logger.info("STEP 2 — Generating scenario …")
+        # ── Step 1 & 2: Theme & Scenario ───────────────────────────────
+        theme_entry = None
         scenario = None
+
         for attempt in range(1, MAX_RETRIES + 1):
+            if theme_entry is None:
+                logger.info("=" * 60)
+                logger.info("STEP 1 — Generating theme (attempt %d) …", attempt)
+                theme_entry = generate_theme()
+                video_id = theme_entry["id"]
+                logger.info("  Theme: %s", theme_entry["theme"])
+                logger.info("  Quote: %s", theme_entry["quote"])
+
+            logger.info("STEP 2 — Generating scenario (attempt %d) …", attempt)
             scenario = generate_scenario(theme_entry)
 
             # ── Step 3: Validate scenario ──────────────────
@@ -82,12 +84,19 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
             errors = validate_scenario(scenario)
             if not errors:
                 break
+                
             logger.warning("  Scenario issues: %s — retrying …", errors)
+            if any("Duplicate theme" in e for e in errors):
+                # Must generate a new theme next attempt
+                _update_history_status(video_id, "duplicate_theme")
+                theme_entry = None
+                
             scenario = None
 
         if scenario is None:
             logger.error("Failed to generate a valid scenario after %d retries.", MAX_RETRIES)
-            _update_history_status(video_id, "failed_scenario")
+            if video_id:
+                _update_history_status(video_id, "failed_scenario")
             return None
 
         scenes = scenario["scenes"]
