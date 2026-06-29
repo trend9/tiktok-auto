@@ -343,6 +343,22 @@
       "quote": "Believe you can and you're halfway there.",
       "author": "Theodore Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260629_007",
+      "date": "2026-06-29",
+      "theme": "Igniting the Inner Spark",
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260629_008",
+      "date": "2026-06-29",
+      "theme": "The Currency of Courage",
+      "quote": "Courage is not the absence of fear, but rather the assessment that something else is more important than fear.",
+      "author": "Ambrose Redmoon",
+      "status": "completed"
     }
   ]
 }
