@@ -503,6 +503,22 @@
       "quote": "The way to get started is to quit talking and begin doing.",
       "author": "Walt Disney",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260701_012",
+      "date": "2026-07-01",
+      "theme": "The Architecture of Adaptive Evolution",
+      "quote": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+      "author": "Charles Darwin",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260701_013",
+      "date": "2026-07-01",
+      "theme": "The Prism of Perspective",
+      "quote": "We do not see things as they are, we see them as we are.",
+      "author": "Anaïs Nin",
+      "status": "completed"
     }
   ]
 }
