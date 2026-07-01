@@ -70,9 +70,11 @@ def generate_theme() -> dict:
 motivational and inspirational short videos (under 60 seconds) for an
 English-speaking audience.
 
-Generate ONE unique theme with a powerful quote.  The quote should be
-either a famous quote with its real author, or an original inspirational
-quote (mark author as "Unknown" if original).
+Generate ONE unique theme with a powerful quote. 
+CRITICAL RULES:
+1. The quote MUST be a famous, authentic quote from a real, prominent historical figure, philosopher, author, or thinker. 
+2. DO NOT use "Unknown" or anonymous quotes.
+3. The tone and depth of the `theme` MUST perfectly match the depth and intellectual weight of the `quote`. If the quote is deeply philosophical, the theme should reflect that. If the quote is simple, the theme should be simple and approachable. Avoid pretentious themes for simple quotes.
 
 IMPORTANT — the following themes have already been used.  Do NOT repeat
 any of them or anything too similar:
@@ -80,9 +82,9 @@ any of them or anything too similar:
 
 Respond in **valid JSON only** (no markdown fences, no extra text):
 {{
-  "theme": "<short theme title, e.g. Resilience in Adversity>",
-  "quote": "<the full quote text>",
-  "author": "<author name or Unknown>"
+  "theme": "<short theme title, matching the depth of the quote>",
+  "quote": "<the full quote text from a real, verified author>",
+  "author": "<the real author name, MUST NOT BE 'Unknown'>"
 }}
 """
 
