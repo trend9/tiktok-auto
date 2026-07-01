@@ -66,6 +66,7 @@ jobs:
             git add -f output/*.mp4
           fi
           git diff --staged --quiet || git commit -m "chore: update generation history and save videos [skip ci]"
+          git pull --rebase origin main || true
           git push
 
       - name: Trigger Webhook (Make.com)
