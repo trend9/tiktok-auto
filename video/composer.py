@@ -21,6 +21,8 @@ from moviepy import (
 )
 from moviepy.audio.fx import MultiplyVolume, AudioLoop
 
+import random
+
 import config
 
 logger = logging.getLogger(__name__)
@@ -88,7 +90,9 @@ def _build_scene_clip(
 
     audio_path = Path(scene["audio_path"])
     audio_clip = AudioFileClip(str(audio_path))
-    scene_duration = audio_clip.duration + 0.5  # small padding
+    # Randomize padding to vary video lengths
+    padding = random.uniform(0.5, 2.5)
+    scene_duration = audio_clip.duration + padding
 
     # ── Background ──────────────────────────────────────────
     video_path = scene.get("video_path")
@@ -184,7 +188,13 @@ def _build_scene_clip(
     x_center = (config.VIDEO_WIDTH - w) / 2
     y_center = (config.VIDEO_HEIGHT - h) / 2 if y_pos == "center" else y_pos
     
+    # Randomize text effect (e.g. fade in duration)
+    fade_duration = random.choice([0.0, 0.5, 1.0, 1.5])
+    
     txt_clip = txt_clip.with_duration(scene_duration).with_position((x_center, y_center))
+    if fade_duration > 0:
+        from moviepy.video.fx import FadeIn
+        txt_clip = txt_clip.with_effects([FadeIn(duration=fade_duration)])
     
     shadow_clip = TextClip(
         text=wrapped_text,
@@ -195,6 +205,10 @@ def _build_scene_clip(
         interline=15,
         margin=(20, 20),
     ).with_duration(scene_duration).with_position((x_center + config.DROP_SHADOW_OFFSET[0], y_center + config.DROP_SHADOW_OFFSET[1]))
+    
+    if fade_duration > 0:
+        from moviepy.video.fx import FadeIn
+        shadow_clip = shadow_clip.with_effects([FadeIn(duration=fade_duration)])
 
     # ── Compose ─────────────────────────────────────────────
     composite = CompositeVideoClip(

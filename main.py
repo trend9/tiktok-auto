@@ -112,9 +112,9 @@ def generate_one_video(voice: str | None = None, theme_override: str | None = No
         if not actual_voice:
             actual_voice = random.choice(config.AVAILABLE_VOICES)
         
-        # Randomize speed (+/- 15%) and pitch (+/- 10Hz) to sound less AI-like
-        rate_val = random.randint(-15, 15)
-        pitch_val = random.randint(-10, 10)
+        # Randomize speed (+/- 25%) and pitch (+/- 15Hz) to sound less AI-like and vary video length
+        rate_val = random.randint(-25, 25)
+        pitch_val = random.randint(-15, 15)
         rate_str = f"{rate_val:+d}%"
         pitch_str = f"{pitch_val:+d}Hz"
         

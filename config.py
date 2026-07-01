@@ -74,6 +74,12 @@ TELOP_PALETTES: list[dict[str, str]] = [
     {"font": "#FF5555", "stroke": "black", "shadow": "black"}, # Light Red
     {"font": "#FFB6C1", "stroke": "black", "shadow": "black"}, # Light Pink
     {"font": "#FFA500", "stroke": "black", "shadow": "black"}, # Orange
+    # Luxurious Palettes
+    {"font": "#FFD700", "stroke": "#333333", "shadow": "black"}, # Gold
+    {"font": "#F7E7CE", "stroke": "#333333", "shadow": "black"}, # Champagne
+    {"font": "#E5E4E2", "stroke": "#222222", "shadow": "black"}, # Platinum
+    {"font": "#B76E79", "stroke": "#222222", "shadow": "black"}, # Rose Gold
+    {"font": "#FFFFFF", "stroke": "#D4AF37", "shadow": "black"}, # White with Gold Stroke
 ]
 
 # ── Cinematic Grading & Audio Settings ───────────────────────────
