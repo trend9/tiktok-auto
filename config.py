@@ -55,7 +55,6 @@ AVAILABLE_VOICES: list[str] = [
     "en-US-JennyNeural",
     "en-GB-RyanNeural",
     "en-US-AriaNeural",
-    "en-US-DavisNeural",
 ]
 
 # ── Text/Telop Settings (Comic-book Style) ──────────────────────
