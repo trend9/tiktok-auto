@@ -559,6 +559,22 @@
       "quote": "The greatest use of a life is to spend it on something that will outlast it.",
       "author": "William James",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260702_001",
+      "date": "2026-07-02",
+      "theme": "The Intricate Tapestry of Influence",
+      "quote": "We are all in a great big family, and we must learn to get along with each other.",
+      "author": "Bessie Coleman",
+      "status": "error"
+    },
+    {
+      "id": "vid_20260702_002",
+      "date": "2026-07-02",
+      "theme": "The Crucible of Character",
+      "quote": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.",
+      "author": "Helen Keller",
+      "status": "error"
     }
   ]
 }
