@@ -575,6 +575,22 @@
       "quote": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.",
       "author": "Helen Keller",
       "status": "error"
+    },
+    {
+      "id": "vid_20260703_001",
+      "date": "2026-07-03",
+      "theme": "The Foundation of Intentional Living",
+      "quote": "The question isn't who is going to let me; it's who is going to stop me.",
+      "author": "Ayn Rand",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260703_002",
+      "date": "2026-07-03",
+      "theme": "The Echo of Potential",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
     }
   ]
 }
