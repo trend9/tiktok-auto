@@ -591,6 +591,22 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260704_001",
+      "date": "2026-07-04",
+      "theme": "The Equilibrium of Action",
+      "quote": "In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.",
+      "author": "Theodore Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260704_002",
+      "date": "2026-07-04",
+      "theme": "The Unfolding Map of Inner Knowing",
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "status": "completed"
     }
   ]
 }
