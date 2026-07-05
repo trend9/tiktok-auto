@@ -607,6 +607,22 @@
       "quote": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260705_001",
+      "date": "2026-07-05",
+      "theme": "The Unveiling of Intent",
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "author": "Albert Einstein",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260705_002",
+      "date": "2026-07-05",
+      "theme": "The Compass of Inner Truth",
+      "quote": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
