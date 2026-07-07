@@ -639,6 +639,30 @@
       "quote": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
       "author": "Marcus Aurelius",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260707_001",
+      "date": "2026-07-07",
+      "theme": "The Momentum of Contradiction",
+      "quote": "Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.)",
+      "author": "Walt Whitman",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260707_002",
+      "date": "2026-07-07",
+      "theme": "The Momentum of Measured Stillness",
+      "quote": "In the attitude of silence the soul finds the path in an clearer light, and what is elusive and deceptive resolves itself into crystal clearness.",
+      "author": "Mahatma Gandhi",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260707_003",
+      "date": "2026-07-07",
+      "theme": "The Unfolding Narrative of Choice",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
     }
   ]
 }
