@@ -663,6 +663,22 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260708_001",
+      "date": "2026-07-08",
+      "theme": "The Harvest of Discipline",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260708_002",
+      "date": "2026-07-08",
+      "theme": "The Taxonomy of Silence",
+      "quote": "In the silence of the heart God speaks. If you face God in prayer and silence, God will speak to you. Then you will know that you are nothing. It is only when you realize your nothingness, your emptiness, that God can fill you with Himself.",
+      "author": "Mother Teresa",
+      "status": "completed"
     }
   ]
 }
