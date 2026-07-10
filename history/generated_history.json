@@ -695,6 +695,30 @@
       "quote": "We must be willing to get rid of the life we've planned, so as to have the life that is waiting for us.",
       "author": "E. M. Forster",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260710_001",
+      "date": "2026-07-10",
+      "theme": "The Sovereignty of Solitude",
+      "quote": "Whosoever is delighted in solitude is either a wild beast or a god.",
+      "author": "Aristotle",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260710_002",
+      "date": "2026-07-10",
+      "theme": "The Steadfastness of Purpose",
+      "quote": "The man who has a 'why' to live for can bear with almost any 'how'.",
+      "author": "Friedrich Nietzsche",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260710_003",
+      "date": "2026-07-10",
+      "theme": "The Unfolding Symphony of Second Chances",
+      "quote": "It is never too late to be what you might have been.",
+      "author": "George Eliot",
+      "status": "completed"
     }
   ]
 }
