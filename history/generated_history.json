@@ -663,6 +663,86 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260708_001",
+      "date": "2026-07-08",
+      "theme": "The Harvest of Discipline",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260708_002",
+      "date": "2026-07-08",
+      "theme": "The Taxonomy of Silence",
+      "quote": "In the silence of the heart God speaks. If you face God in prayer and silence, God will speak to you. Then you will know that you are nothing. It is only when you realize your nothingness, your emptiness, that God can fill you with Himself.",
+      "author": "Mother Teresa",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260709_001",
+      "date": "2026-07-09",
+      "theme": "The Unburdened Ascent",
+      "quote": "If you would be a writer, you must feel as if you were born for it, and then you must work hard enough to prove it. The world is not interested in the man who has a great deal to say and no method of saying it. He must be a man of his craft.",
+      "author": "Henry James",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260709_002",
+      "date": "2026-07-09",
+      "theme": "The Alchemy of Unmaking",
+      "quote": "We must be willing to get rid of the life we've planned, so as to have the life that is waiting for us.",
+      "author": "E. M. Forster",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260710_001",
+      "date": "2026-07-10",
+      "theme": "The Sovereignty of Solitude",
+      "quote": "Whosoever is delighted in solitude is either a wild beast or a god.",
+      "author": "Aristotle",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260710_002",
+      "date": "2026-07-10",
+      "theme": "The Steadfastness of Purpose",
+      "quote": "The man who has a 'why' to live for can bear with almost any 'how'.",
+      "author": "Friedrich Nietzsche",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260710_003",
+      "date": "2026-07-10",
+      "theme": "The Unfolding Symphony of Second Chances",
+      "quote": "It is never too late to be what you might have been.",
+      "author": "George Eliot",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260711_001",
+      "date": "2026-07-11",
+      "theme": "The Crucible of Self-Discovery",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260711_002",
+      "date": "2026-07-11",
+      "theme": "The Art of Letting Go",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260711_003",
+      "date": "2026-07-11",
+      "theme": "The Sovereignty of Focused Will",
+      "quote": "The essence of independence is to be able to do something for one's self.",
+      "author": "Maria Montessori",
+      "status": "completed"
     }
   ]
 }
