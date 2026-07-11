@@ -719,6 +719,30 @@
       "quote": "It is never too late to be what you might have been.",
       "author": "George Eliot",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260711_001",
+      "date": "2026-07-11",
+      "theme": "The Crucible of Self-Discovery",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260711_002",
+      "date": "2026-07-11",
+      "theme": "The Art of Letting Go",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260711_003",
+      "date": "2026-07-11",
+      "theme": "The Sovereignty of Focused Will",
+      "quote": "The essence of independence is to be able to do something for one's self.",
+      "author": "Maria Montessori",
+      "status": "completed"
     }
   ]
 }
