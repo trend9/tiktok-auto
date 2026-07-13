@@ -759,6 +759,22 @@
       "quote": "We are such stuff / As dreams are made on; and our little life / Is rounded with a sleep.",
       "author": "William Shakespeare",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260713_001",
+      "date": "2026-07-13",
+      "theme": "The Symphony of Self-Creation",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260713_002",
+      "date": "2026-07-13",
+      "theme": "The Geometry of Restraint",
+      "quote": "Mastery is not manifested in a flurry of activity, but in the precision of the single strike.",
+      "author": "Miyamoto Musashi",
+      "status": "completed"
     }
   ]
 }
