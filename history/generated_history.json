@@ -855,6 +855,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Aristotle",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260719_001",
+      "date": "2026-07-19",
+      "theme": "The Power of Persistent Inquiry",
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "author": "Albert Einstein",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260719_002",
+      "date": "2026-07-19",
+      "theme": "The Power of Persistent Questions",
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery each day.",
+      "author": "Albert Einstein",
+      "status": "completed"
     }
   ]
 }
