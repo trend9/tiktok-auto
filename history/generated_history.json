@@ -919,6 +919,22 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260723_001",
+      "date": "2026-07-23",
+      "theme": "The Wisdom of Provisional Truths",
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260723_002",
+      "date": "2026-07-23",
+      "theme": "The Steadfast Anchor in the Storm of Doubt",
+      "quote": "He who is too busy to do himself a service is slave to himself.",
+      "author": "Baltasar Gracián",
+      "status": "completed"
     }
   ]
 }
