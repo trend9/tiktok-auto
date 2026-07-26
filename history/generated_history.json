@@ -975,6 +975,22 @@
       "quote": "We are not afraid to consider that we may be wrong. That is not a failure, that is a discovery.",
       "author": "Carl Rogers",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260726_001",
+      "date": "2026-07-26",
+      "theme": "The Fragility of Progress",
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260726_002",
+      "date": "2026-07-26",
+      "theme": "The Art of Strategic Retreat",
+      "quote": "He who knows when he can fight and when he cannot, will be victorious.",
+      "author": "Sun Tzu",
+      "status": "completed"
     }
   ]
 }
