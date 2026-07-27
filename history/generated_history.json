@@ -991,6 +991,22 @@
       "quote": "He who knows when he can fight and when he cannot, will be victorious.",
       "author": "Sun Tzu",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260727_001",
+      "date": "2026-07-27",
+      "theme": "The Architecture of Present Action",
+      "quote": "The great use of life is to spend it for something that will outlast it.",
+      "author": "William James",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260727_002",
+      "date": "2026-07-27",
+      "theme": "The Echo of What Remains",
+      "quote": "We are not the sum of our successes, but of our failures. We are not the sum of our talents, but of our efforts. We are not the sum of our strengths, but of our weaknesses. We are not the sum of our virtues, but of our vices. We are not the sum of our triumphs, but of our defeats. We are not the sum of our joys, but of our sorrows. We are not the sum of our loves, but of our hates. We are not the sum of our hopes, but of our fears.",
+      "author": "August Strindberg",
+      "status": "completed"
     }
   ]
 }
