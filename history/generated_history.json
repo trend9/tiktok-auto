@@ -1023,6 +1023,22 @@
       "quote": "The measure of intelligence is the ability to change.",
       "author": "Albert Einstein",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260729_001",
+      "date": "2026-07-29",
+      "theme": "The Undulating Landscape of Becoming",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260729_002",
+      "date": "2026-07-29",
+      "theme": "The Echo of Unexpressed Truths",
+      "quote": "The heaviest burden is to carry an unexpressed truth.",
+      "author": "Carl Jung",
+      "status": "completed"
     }
   ]
 }
