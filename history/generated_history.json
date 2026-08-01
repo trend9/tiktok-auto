@@ -1071,6 +1071,22 @@
       "quote": "The journey of a thousand miles begins with a single step.",
       "author": "Lao Tzu",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260801_001",
+      "date": "2026-08-01",
+      "theme": "The Quiet Wisdom of Observation",
+      "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+      "author": "Aristotle",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260801_002",
+      "date": "2026-08-01",
+      "theme": "The Courage to Reclaim Lost Time",
+      "quote": "The time you enjoy wasting is not wasted.",
+      "author": "John Lennon",
+      "status": "completed"
     }
   ]
 }
