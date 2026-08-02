@@ -1087,6 +1087,22 @@
       "quote": "The time you enjoy wasting is not wasted.",
       "author": "John Lennon",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260802_001",
+      "date": "2026-08-02",
+      "theme": "The Echo of Deliberate Choice",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260802_002",
+      "date": "2026-08-02",
+      "theme": "The Quiet Power of Perspective",
+      "quote": "We are not disturbed by things, but by the views we take of them.",
+      "author": "Epictetus",
+      "status": "completed"
     }
   ]
 }
