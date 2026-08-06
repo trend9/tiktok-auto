@@ -1151,6 +1151,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Aristotle",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260806_001",
+      "date": "2026-08-06",
+      "theme": "The Clarity of Critical Observation",
+      "quote": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+      "author": "Stephen Hawking",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260806_002",
+      "date": "2026-08-06",
+      "theme": "The Gravity of Small Choices",
+      "quote": "The smallest act of kindness is worth more than the grandest intention.",
+      "author": "Kahlil Gibran",
+      "status": "completed"
     }
   ]
 }
