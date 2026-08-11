@@ -1231,6 +1231,22 @@
       "quote": "The meaning of life is to find your gift. The purpose of life is to give it away.",
       "author": "Pablo Picasso",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260811_001",
+      "date": "2026-08-11",
+      "theme": "The Seed of Greatness Within",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260811_002",
+      "date": "2026-08-11",
+      "theme": "The Courage to Embrace the Unforeseen Path",
+      "quote": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most responsive to change.",
+      "author": "Charles Darwin",
+      "status": "completed"
     }
   ]
 }
