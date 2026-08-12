@@ -1247,6 +1247,22 @@
       "quote": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most responsive to change.",
       "author": "Charles Darwin",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260812_001",
+      "date": "2026-08-12",
+      "theme": "The Resonance of Shared Humanity",
+      "quote": "We are all in the gutter, but some of us are looking at the stars.",
+      "author": "Oscar Wilde",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260812_002",
+      "date": "2026-08-12",
+      "theme": "The Geometry of Personal Growth",
+      "quote": "We are not born, but rather become, women. There is no pre-ordained destiny, no biological, mechanical or even spiritual fate that determines the figure that the human female cuts in society. [...] It is civilization that manufactures this intermediary, more specifically man, that is supposed to describe woman.",
+      "author": "Simone de Beauvoir",
+      "status": "completed"
     }
   ]
 }
