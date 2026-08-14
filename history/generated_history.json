@@ -1279,6 +1279,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Aristotle",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260814_001",
+      "date": "2026-08-14",
+      "theme": "The Alchemy of Intentional Experience",
+      "quote": "We are not what we should be. We are not what we are going to be. But we are on the way.",
+      "author": "Maya Angelou",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260814_002",
+      "date": "2026-08-14",
+      "theme": "The Forge of Inner Resilience",
+      "quote": "It is not that I fear to die, but that I fear to live without having truly lived.",
+      "author": "Marcus Aurelius",
+      "status": "completed"
     }
   ]
 }
