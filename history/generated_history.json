@@ -1295,6 +1295,22 @@
       "quote": "It is not that I fear to die, but that I fear to live without having truly lived.",
       "author": "Marcus Aurelius",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260815_001",
+      "date": "2026-08-15",
+      "theme": "The Architecture of Imperfection",
+      "quote": "It is not the man who has too much, but the man who fears having too little, that is the poorest.",
+      "author": "Seneca",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260815_002",
+      "date": "2026-08-15",
+      "theme": "The Liberating Weight of Letting Go",
+      "quote": "The greatest weapon against stress is our ability to choose one thought over another.",
+      "author": "William James",
+      "status": "completed"
     }
   ]
 }
