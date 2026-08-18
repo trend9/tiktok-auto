@@ -1343,6 +1343,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Aristotle",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260818_001",
+      "date": "2026-08-18",
+      "theme": "The Weight of Wisdom's Silence",
+      "quote": "If you want to make people listen, not only you have to tell them something they have never heard, but you must say it in a way that they cannot ignore. The only way to make people listen is to make them understand.",
+      "author": "Niccolò Machiavelli",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260818_002",
+      "date": "2026-08-18",
+      "theme": "The Illumination of Unasked Questions",
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
