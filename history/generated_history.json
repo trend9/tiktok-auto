@@ -1391,6 +1391,30 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260822_001",
+      "date": "2026-08-22",
+      "theme": "The Crucible of Becoming",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260822_002",
+      "date": "2026-08-22",
+      "theme": "The Undeniable Echo of Shared Experience",
+      "quote": "We are not alone. We are together.",
+      "author": "Viktor Frankl",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260822_003",
+      "date": "2026-08-22",
+      "theme": "The Silent Symphony of Growth",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
     }
   ]
 }
