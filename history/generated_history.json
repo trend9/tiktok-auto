@@ -1447,6 +1447,30 @@
       "quote": "The truth is a trumpet call to awaken the soul. We must be true to ourselves, and then we can be true to others.",
       "author": "Kahlil Gibran",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260825_001",
+      "date": "2026-08-25",
+      "theme": "The Unfolding Blueprint of the Soul",
+      "quote": "The soul is not a thing that can be given or bought. It is a living thing, and it is born with us, and it lives with us, and it dies with us. And it is the soul that is the great secret of the world.",
+      "author": "Oscar Wilde",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260825_002",
+      "date": "2026-08-25",
+      "theme": "The Unseen Threads of Connection",
+      "quote": "We are not born alone, nor do we live alone. We are bound together by unseen threads of shared existence.",
+      "author": "Thich Nhat Hanh",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260825_003",
+      "date": "2026-08-25",
+      "theme": "The Quiet Dignity of Honest Work",
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "status": "completed"
     }
   ]
 }
