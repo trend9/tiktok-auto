@@ -1487,6 +1487,30 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Will Durant",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260827_001",
+      "date": "2026-08-27",
+      "theme": "The Unseen Architecture of Influence",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20260827_002",
+      "date": "2026-08-27",
+      "theme": "The Intricate Dance of Imperfect Progress",
+      "quote": "The desire to be good is the enemy of being good.",
+      "author": "Confucius",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260827_003",
+      "date": "2026-08-27",
+      "theme": "The Unfolding Tapestry of Wisdom",
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
