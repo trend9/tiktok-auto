@@ -1511,6 +1511,22 @@
       "quote": "The only true wisdom is in knowing you know nothing.",
       "author": "Socrates",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260828_001",
+      "date": "2026-08-28",
+      "theme": "The Art of Being Present",
+      "quote": "The only time we are really alive is in the present moment.",
+      "author": "Thich Nhat Hanh",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260828_002",
+      "date": "2026-08-28",
+      "theme": "The Weight of Unseen Intentions",
+      "quote": "The soul is not a thing that can be lost. It is a thing that can be cultivated.",
+      "author": "John Dewey",
+      "status": "completed"
     }
   ]
 }
