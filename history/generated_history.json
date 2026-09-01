@@ -1583,6 +1583,22 @@
       "quote": "Nature does not hurry, yet everything is accomplished.",
       "author": "Lao Tzu",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260901_001",
+      "date": "2026-09-01",
+      "theme": "The Heavy Toll of Unspoken Truths",
+      "quote": "The truth will set you free, but first it will piss you off.",
+      "author": "Gloria Steinem",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260901_002",
+      "date": "2026-09-01",
+      "theme": "The Unfolding Narrative of Becoming",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
     }
   ]
 }
