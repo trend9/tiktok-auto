@@ -1615,6 +1615,22 @@
       "quote": "The man who moves a mountain begins by carrying away small stones.",
       "author": "Confucius",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260903_001",
+      "date": "2026-09-03",
+      "theme": "The Resonance of Authenticity",
+      "quote": "Man is least himself when he talks with his own lips, and most himself when he is not speaking.",
+      "author": "Søren Kierkegaard",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260903_002",
+      "date": "2026-09-03",
+      "theme": "The Unseen Foundation of Character",
+      "quote": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.",
+      "author": "Abraham Lincoln",
+      "status": "completed"
     }
   ]
 }
