@@ -1631,6 +1631,22 @@
       "quote": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.",
       "author": "Abraham Lincoln",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260904_001",
+      "date": "2026-09-04",
+      "theme": "The Unseen Seeds of Tomorrow's Harvest",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260904_002",
+      "date": "2026-09-04",
+      "theme": "The Heavy Cost of Retaliation",
+      "quote": "An eye for an eye only ends up making the whole world blind.",
+      "author": "Mahatma Gandhi",
+      "status": "completed"
     }
   ]
 }
