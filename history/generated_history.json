@@ -1647,6 +1647,22 @@
       "quote": "An eye for an eye only ends up making the whole world blind.",
       "author": "Mahatma Gandhi",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260905_001",
+      "date": "2026-09-05",
+      "theme": "The Courage to Live in the Unknown",
+      "quote": "It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.",
+      "author": "Seneca",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260905_002",
+      "date": "2026-09-05",
+      "theme": "The Unveiling Truth of Internal Landscape",
+      "quote": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
