@@ -1663,6 +1663,22 @@
       "quote": "The unexamined life is not worth living.",
       "author": "Socrates",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260906_001",
+      "date": "2026-09-06",
+      "theme": "The Quiet Rebellion of Independent Thought",
+      "quote": "The greatest enemy of progress is not error, but tradition.",
+      "author": "Bertrand Russell",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260906_002",
+      "date": "2026-09-06",
+      "theme": "The Courage of Uncharted Territories",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
     }
   ]
 }
