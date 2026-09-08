@@ -1695,6 +1695,22 @@
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
       "author": "Eleanor Roosevelt",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260908_001",
+      "date": "2026-09-08",
+      "theme": "The Compass of Intent",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260908_002",
+      "date": "2026-09-08",
+      "theme": "The Fierce Independence of Self-Discovery",
+      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson",
+      "status": "completed"
     }
   ]
 }
