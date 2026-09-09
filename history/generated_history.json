@@ -1711,6 +1711,22 @@
       "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
       "author": "Ralph Waldo Emerson",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260909_001",
+      "date": "2026-09-09",
+      "theme": "The Alchemy of Our Choices",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260909_002",
+      "date": "2026-09-09",
+      "theme": "The Quiet Revolution of Self-Awareness",
+      "quote": "The greatest enemy you can conquer is yourself.",
+      "author": "Aristotle",
+      "status": "completed"
     }
   ]
 }
