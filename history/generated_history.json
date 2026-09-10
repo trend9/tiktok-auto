@@ -1727,6 +1727,22 @@
       "quote": "The greatest enemy you can conquer is yourself.",
       "author": "Aristotle",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260910_001",
+      "date": "2026-09-10",
+      "theme": "The Unseen Momentum of Small Beginnings",
+      "quote": "The journey of a thousand miles begins with a single step.",
+      "author": "Lao Tzu",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260910_002",
+      "date": "2026-09-10",
+      "theme": "The Architecture of Personal Reality",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
     }
   ]
 }
