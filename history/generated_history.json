@@ -1743,6 +1743,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Will Durant",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260911_001",
+      "date": "2026-09-11",
+      "theme": "The Courage to Shape What Is",
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260911_002",
+      "date": "2026-09-11",
+      "theme": "The Art of Becoming the Architect of Your Own Destiny",
+      "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does. Not being able to do something is not an excuse, because we are forced to be free. When you are aware of the smell of the air, you are not free, but when you are aware of your freedom, you are.",
+      "author": "Jean-Paul Sartre",
+      "status": "completed"
     }
   ]
 }
