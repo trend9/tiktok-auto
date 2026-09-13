@@ -1775,6 +1775,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Will Durant",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260913_001",
+      "date": "2026-09-13",
+      "theme": "The Unfolding Clarity of Solitude",
+      "quote": "Silence is the birthplace of wisdom.",
+      "author": "Lao Tzu",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260913_002",
+      "date": "2026-09-13",
+      "theme": "The Subtle Craft of Leading Yourself",
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "status": "completed"
     }
   ]
 }
