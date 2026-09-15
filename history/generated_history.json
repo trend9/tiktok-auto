@@ -1807,6 +1807,22 @@
       "quote": "The unexamined life is not worth living.",
       "author": "Socrates",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260915_001",
+      "date": "2026-09-15",
+      "theme": "The Crucible of Hardship",
+      "quote": "Difficulties strengthen the mind, as labor does the body.",
+      "author": "Seneca",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260915_002",
+      "date": "2026-09-15",
+      "theme": "The Heavy Toll of Waiting",
+      "quote": "He who delays what he ought to do is hanging between two days; he is looking forward to what is coming and he is letting go of what is present.",
+      "author": "Seneca",
+      "status": "completed"
     }
   ]
 }
