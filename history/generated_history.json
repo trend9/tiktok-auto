@@ -1887,6 +1887,22 @@
       "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
       "author": "Albert Einstein",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260920_001",
+      "date": "2026-09-20",
+      "theme": "The Unseen Impact of Our Inner Compass",
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260920_002",
+      "date": "2026-09-20",
+      "theme": "The Subtle Art of Intentional Doubt",
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
