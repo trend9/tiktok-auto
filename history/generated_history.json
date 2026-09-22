@@ -1919,6 +1919,22 @@
       "quote": "Have no fear of perfection; you'll never reach it.",
       "author": "Salvador Dalí",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260922_001",
+      "date": "2026-09-22",
+      "theme": "The Forge of Becoming",
+      "quote": "It is not so much for our friends that we live, but for ourselves, and for those who might become our friends.",
+      "author": "Arthur Schopenhauer",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260922_002",
+      "date": "2026-09-22",
+      "theme": "The Heavy Cost of Holding On",
+      "quote": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+      "author": "Albert Camus",
+      "status": "completed"
     }
   ]
 }
