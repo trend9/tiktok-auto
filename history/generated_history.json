@@ -1967,6 +1967,22 @@
       "quote": "The future is bought by the present.",
       "author": "John Locke",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260925_001",
+      "date": "2026-09-25",
+      "theme": "The Echoes of Our Actions",
+      "quote": "No act of kindness, no matter how small, is ever wasted.",
+      "author": "Aesop",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260925_002",
+      "date": "2026-09-25",
+      "theme": "The Inevitable Resonance of Your True Nature",
+      "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+      "author": "Jean-Paul Sartre",
+      "status": "completed"
     }
   ]
 }
