@@ -1983,6 +1983,22 @@
       "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
       "author": "Jean-Paul Sartre",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260926_001",
+      "date": "2026-09-26",
+      "theme": "The Steadfast Resolve to Persevere Against All Odds",
+      "quote": "It is impossible to get to the other side of the river without crossing it.",
+      "author": "Confucius",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260926_002",
+      "date": "2026-09-26",
+      "theme": "The Transformative Power of Perspective",
+      "quote": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "status": "completed"
     }
   ]
 }
