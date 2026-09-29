@@ -2031,6 +2031,22 @@
       "quote": "We are not islands, entire of ourselves; every man is a piece of the continent, a part of the main.",
       "author": "John Donne",
       "status": "completed"
+    },
+    {
+      "id": "vid_20260929_001",
+      "date": "2026-09-29",
+      "theme": "The Unseen Architects of Our Inner World",
+      "quote": "The mind is its own place, and in itself can make a heaven of hell, a hell of heaven.",
+      "author": "John Milton",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20260929_002",
+      "date": "2026-09-29",
+      "theme": "The Unfolding Power of Persistent Inquiry",
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "author": "Albert Einstein",
+      "status": "completed"
     }
   ]
 }
