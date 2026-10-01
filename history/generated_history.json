@@ -2063,6 +2063,22 @@
       "quote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.",
       "author": "Albert Einstein",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261001_001",
+      "date": "2026-10-01",
+      "theme": "The Clarity Found in Simplicity",
+      "quote": "There are two ways of spreading light: to be the candle or the mirror that reflects it.",
+      "author": "Edith Wharton",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261001_002",
+      "date": "2026-10-01",
+      "theme": "The Tapestry of Interconnectedness",
+      "quote": "We are not solitary beings, we are a universe of interconnected souls.",
+      "author": "Rumi",
+      "status": "completed"
     }
   ]
 }
