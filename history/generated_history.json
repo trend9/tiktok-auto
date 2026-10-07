@@ -2159,6 +2159,38 @@
       "quote": "Man is least himself when he talks with his own lips, and most himself when he is silent.",
       "author": "Søren Kierkegaard",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261007_001",
+      "date": "2026-10-07",
+      "theme": "The Quiet Revolution of Internal Alignment",
+      "quote": "The greatest revolution of our generation is the discovery that human beings, by changing their inner attitudes, can change their outer circumstances.",
+      "author": "William James",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261007_002",
+      "date": "2026-10-07",
+      "theme": "The Alchemy of Turning Obstacles into Opportunities",
+      "quote": "The impediment to action advances action. What stands in the way becomes the way.",
+      "author": "Marcus Aurelius",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261007_003",
+      "date": "2026-10-07",
+      "theme": "The Courage to Begin",
+      "quote": "The secret of getting ahead is getting started.",
+      "author": "Mark Twain",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261007_004",
+      "date": "2026-10-07",
+      "theme": "The Seed of Possibility in Every Sunrise",
+      "quote": "Our lives are defined by opportunities, even the ones we miss.",
+      "author": "F. Scott Fitzgerald",
+      "status": "completed"
     }
   ]
 }
