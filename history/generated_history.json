@@ -2191,6 +2191,22 @@
       "quote": "Our lives are defined by opportunities, even the ones we miss.",
       "author": "F. Scott Fitzgerald",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261008_001",
+      "date": "2026-10-08",
+      "theme": "The Unseen Foundations of Character",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261008_002",
+      "date": "2026-10-08",
+      "theme": "The Unfolding Canvas of Becoming",
+      "quote": "The impediment to action advances action. What stands in the way becomes the way.",
+      "author": "Marcus Aurelius",
+      "status": "completed"
     }
   ]
 }
