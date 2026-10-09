@@ -2207,6 +2207,22 @@
       "quote": "The impediment to action advances action. What stands in the way becomes the way.",
       "author": "Marcus Aurelius",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261009_001",
+      "date": "2026-10-09",
+      "theme": "The Courage to Confront the Unknown",
+      "quote": "It is not the strength of the body that counts, but the strength of the spirit.",
+      "author": "J.R.R. Tolkien",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261009_002",
+      "date": "2026-10-09",
+      "theme": "The Radical Responsibility of Freedom",
+      "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+      "author": "Jean-Paul Sartre",
+      "status": "completed"
     }
   ]
 }
