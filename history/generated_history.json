@@ -2223,6 +2223,30 @@
       "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
       "author": "Jean-Paul Sartre",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261010_001",
+      "date": "2026-10-10",
+      "theme": "The Courage to Embrace Imperfection",
+      "quote": "It is better to attempt to do something great and fail, than to attempt to do nothing and succeed.",
+      "author": "Robert Green Ingersoll",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261010_002",
+      "date": "2026-10-10",
+      "theme": "The Silent Sculpting of Character",
+      "quote": "A person is what he is in a world in which he does not want to be, and he is conscious of it. He is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+      "author": "Jean-Paul Sartre",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261010_003",
+      "date": "2026-10-10",
+      "theme": "The Illumination of True Knowing",
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "status": "completed"
     }
   ]
 }
