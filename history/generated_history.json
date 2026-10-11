@@ -2247,6 +2247,30 @@
       "quote": "The only true wisdom is in knowing you know nothing.",
       "author": "Socrates",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261011_001",
+      "date": "2026-10-11",
+      "theme": "The Compass of Conscience",
+      "quote": "We are not to be judged by what we have done, but by what we could have done.",
+      "author": "Beryl Markham",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261011_002",
+      "date": "2026-10-11",
+      "theme": "The Heavy Cost of Holding On",
+      "quote": "You can only lose what you cling to.",
+      "author": "Buddha",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261011_003",
+      "date": "2026-10-11",
+      "theme": "The Sculptor of Your Own Reality",
+      "quote": "The price of anything you want to offer is the price of admitting you are capable of offering it.",
+      "author": "David Whyte",
+      "status": "completed"
     }
   ]
 }
