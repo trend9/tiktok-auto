@@ -2271,6 +2271,22 @@
       "quote": "The price of anything you want to offer is the price of admitting you are capable of offering it.",
       "author": "David Whyte",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261012_001",
+      "date": "2026-10-12",
+      "theme": "The Unseen Architecture of Resilience",
+      "quote": "The human capacity for burden is like bamboo – far more flexible than you'd ever believe at first glance.",
+      "author": "Jodi Picoult",
+      "status": "error"
+    },
+    {
+      "id": "vid_20261012_002",
+      "date": "2026-10-12",
+      "theme": "The Illuminated Path of Self-Knowledge",
+      "quote": "To know thyself is the beginning of all wisdom.",
+      "author": "Aristotle",
+      "status": "error"
     }
   ]
 }
