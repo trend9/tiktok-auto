@@ -2287,6 +2287,22 @@
       "quote": "To know thyself is the beginning of all wisdom.",
       "author": "Aristotle",
       "status": "error"
+    },
+    {
+      "id": "vid_20261013_001",
+      "date": "2026-10-13",
+      "theme": "The Quiet Power of Inner Observation",
+      "quote": "We are not what we think we are. We are what we think.",
+      "author": "Buddha",
+      "status": "error"
+    },
+    {
+      "id": "vid_20261013_002",
+      "date": "2026-10-13",
+      "theme": "The Compass of Curiosity",
+      "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "author": "Albert Einstein",
+      "status": "error"
     }
   ]
 }
