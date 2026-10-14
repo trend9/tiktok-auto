@@ -2303,6 +2303,30 @@
       "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
       "author": "Albert Einstein",
       "status": "error"
+    },
+    {
+      "id": "vid_20261014_001",
+      "date": "2026-10-14",
+      "theme": "The Unseen Currents of Influence",
+      "quote": "We are all sculptors and painters, and our lives are our canvases.",
+      "author": "Albert Einstein",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261014_002",
+      "date": "2026-10-14",
+      "theme": "The Horizon of Continuous Growth",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261014_003",
+      "date": "2026-10-14",
+      "theme": "The Art of Intentional Forgetting",
+      "quote": "Forget injuries, never forget kindnesses.",
+      "author": "Confucius",
+      "status": "completed"
     }
   ]
 }
