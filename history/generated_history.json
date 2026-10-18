@@ -2375,6 +2375,22 @@
       "quote": "Great things are done by a series of small things brought together.",
       "author": "Vincent van Gogh",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261018_001",
+      "date": "2026-10-18",
+      "theme": "The Steadfast Pursuit of Inner Truth",
+      "quote": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261018_002",
+      "date": "2026-10-18",
+      "theme": "The Undeniable Power of Present Action",
+      "quote": "It is not the strength but the endurance of the soul that brings one to the winning post.",
+      "author": "Mahatma Gandhi",
+      "status": "completed"
     }
   ]
 }
