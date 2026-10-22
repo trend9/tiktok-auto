@@ -2439,6 +2439,22 @@
       "quote": "We don't see things as they are, we see things as we are.",
       "author": "Anaïs Nin",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261022_001",
+      "date": "2026-10-22",
+      "theme": "The Subtle Power of Deep Listening",
+      "quote": "Most people do not listen as they want to be heard.",
+      "author": "Stephen Covey",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261022_002",
+      "date": "2026-10-22",
+      "theme": "The Courage to Embrace Uncertainty",
+      "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts",
+      "status": "failed_output"
     }
   ]
 }
