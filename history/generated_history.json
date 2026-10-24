@@ -2471,6 +2471,22 @@
       "quote": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
       "author": "William Shakespeare",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261024_001",
+      "date": "2026-10-24",
+      "theme": "The Wisdom in What Remains Unsaid",
+      "quote": "Silence is the ultimate weapon of power.",
+      "author": "Charles de Gaulle",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261024_002",
+      "date": "2026-10-24",
+      "theme": "The Power of Unwavering Focus",
+      "quote": "Concentration is the root of all the higher abilities in man.",
+      "author": "Sun Tzu",
+      "status": "completed"
     }
   ]
 }
