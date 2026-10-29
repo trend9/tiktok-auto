@@ -2519,6 +2519,22 @@
       "quote": "We are not born into the world to be separate, but to be together.",
       "author": "Leonardo da Vinci",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261029_001",
+      "date": "2026-10-29",
+      "theme": "The Enduring Power of Simple Acts",
+      "quote": "It is not the magnitude of our actions, but the magnitude of our love that matters.",
+      "author": "Mother Teresa",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261029_002",
+      "date": "2026-10-29",
+      "theme": "The Architecture of Inner Freedom",
+      "quote": "We are free, then, to a certain extent, in proportion as we are able to live in the present. This is the only moment we are sure of, the only moment we can control.",
+      "author": "Alan Watts",
+      "status": "completed"
     }
   ]
 }
