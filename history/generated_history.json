@@ -2551,6 +2551,22 @@
       "quote": "We are the authors of our lives, and the choices we make today are the ink that fills the pages of our tomorrow.",
       "author": "Oprah Winfrey",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261031_001",
+      "date": "2026-10-31",
+      "theme": "The Profound Art of Focused Attention",
+      "quote": "The world is not going to be destroyed by people who do evil things, but by those who stand by and let it happen.",
+      "author": "Albert Einstein",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261031_002",
+      "date": "2026-10-31",
+      "theme": "The Perpetual Evolution of the Self",
+      "quote": "Man is a perpetually unfinished creation.",
+      "author": "Jean-Paul Sartre",
+      "status": "completed"
     }
   ]
 }
