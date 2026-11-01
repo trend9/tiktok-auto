@@ -2567,6 +2567,22 @@
       "quote": "Man is a perpetually unfinished creation.",
       "author": "Jean-Paul Sartre",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261101_001",
+      "date": "2026-11-01",
+      "theme": "The Forge of Experience",
+      "quote": "I am not what happened to me, I am what I choose to become.",
+      "author": "Carl Jung",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261101_002",
+      "date": "2026-11-01",
+      "theme": "The Echoes of Small Choices",
+      "quote": "It is not the magnitude of our actions, but the magnitude of our love that matters.",
+      "author": "Mother Teresa",
+      "status": "completed"
     }
   ]
 }
