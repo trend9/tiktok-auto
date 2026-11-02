@@ -2583,6 +2583,22 @@
       "quote": "It is not the magnitude of our actions, but the magnitude of our love that matters.",
       "author": "Mother Teresa",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261102_001",
+      "date": "2026-11-02",
+      "theme": "The Weight and Worth of True Words",
+      "quote": "Speech is the mirror of the soul; as the acetum of the wine, so is the speech of the man.",
+      "author": "Seneca",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261102_002",
+      "date": "2026-11-02",
+      "theme": "The Unfolding Landscape of Your Mind",
+      "quote": "The world is a book, and those who do not travel read only one page.",
+      "author": "Saint Augustine",
+      "status": "completed"
     }
   ]
 }
