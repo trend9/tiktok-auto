@@ -2615,6 +2615,22 @@
       "quote": "Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.",
       "author": "Emily Dickinson",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261104_001",
+      "date": "2026-11-04",
+      "theme": "The Unfolding Majesty of Becoming",
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261104_002",
+      "date": "2026-11-04",
+      "theme": "The Weight of Unseen Choices",
+      "quote": "The great thing in this world is not so much where we stand, as in what direction we are moving.",
+      "author": "Oliver Goldsmith",
+      "status": "completed"
     }
   ]
 }
