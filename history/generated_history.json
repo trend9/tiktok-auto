@@ -2647,6 +2647,30 @@
       "quote": "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
       "author": "Seneca",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261106_001",
+      "date": "2026-11-06",
+      "theme": "The Steadfast Anchor in the Storm of Distraction",
+      "quote": "The ability to think, to feel, to be grateful, to love – these remain the supreme gifts of life. We are not a product of the forces that batter us; we are the product of our own choices.",
+      "author": "Archbishop Desmond Tutu",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261106_002",
+      "date": "2026-11-06",
+      "theme": "The Steadfast Compass of Principle",
+      "quote": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
+      "author": "Martin Luther King Jr.",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261106_003",
+      "date": "2026-11-06",
+      "theme": "The Wisdom of Refusal",
+      "quote": "The ability to say 'no' is a sign of strength. It is the art of knowing what you want, and what you don't want.",
+      "author": "Unknown",
+      "status": "completed"
     }
   ]
 }
