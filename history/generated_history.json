@@ -2855,6 +2855,30 @@
       "quote": "The chain of destiny can only be forged link by link.",
       "author": "Marie Curie",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261122_001",
+      "date": "2026-11-22",
+      "theme": "The Unseen Weaving of Cause and Effect",
+      "quote": "The chains of habit are too weak to be felt until they are too strong to be broken.",
+      "author": "Samuel Johnson",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261122_002",
+      "date": "2026-11-22",
+      "theme": "The Courage to Be Imperfect",
+      "quote": "To be nobody but yourself in a world which is doing its best, day and night, to make you everybody else means to fight the hardest battle which any human being can fight; and to never stop fighting.",
+      "author": "E. E. Cummings",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261122_003",
+      "date": "2026-11-22",
+      "theme": "The Profound Power of Presence",
+      "quote": "We are not to expect any miracle in our conduct, nor any heroic or superhuman virtue. The great point is to be simple, humble, and sincere.",
+      "author": "Catherine of Siena",
+      "status": "completed"
     }
   ]
 }
