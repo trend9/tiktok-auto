@@ -2879,6 +2879,30 @@
       "quote": "We are not to expect any miracle in our conduct, nor any heroic or superhuman virtue. The great point is to be simple, humble, and sincere.",
       "author": "Catherine of Siena",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261123_001",
+      "date": "2026-11-23",
+      "theme": "The Undeniable Weight of What We Choose to Ignore",
+      "quote": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+      "author": "Albert Einstein",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261123_002",
+      "date": "2026-11-23",
+      "theme": "The Steadfast Pursuit of Inner Truth",
+      "quote": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "status": "duplicate_theme"
+    },
+    {
+      "id": "vid_20261123_003",
+      "date": "2026-11-23",
+      "theme": "The Courage to Confront the Shadows",
+      "quote": "It is not the strength of the body that counts, but the strength of the spirit.",
+      "author": "J.R.R. Tolkien",
+      "status": "completed"
     }
   ]
 }
