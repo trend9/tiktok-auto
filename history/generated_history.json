@@ -2967,6 +2967,22 @@
       "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       "author": "Will Durant",
       "status": "completed"
+    },
+    {
+      "id": "vid_20261128_001",
+      "date": "2026-11-28",
+      "theme": "The Unseen Threads of Influence",
+      "quote": "No man is an island entire of itself; every man is a piece of the continent, a part of the main.",
+      "author": "John Donne",
+      "status": "completed"
+    },
+    {
+      "id": "vid_20261128_002",
+      "date": "2026-11-28",
+      "theme": "The Unseen Force of Our Deepest Values",
+      "quote": "The ultimate value of life depends not on what we receive but on what we give.",
+      "author": "Albert Einstein",
+      "status": "completed"
     }
   ]
 }
